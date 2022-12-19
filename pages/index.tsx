@@ -80,7 +80,7 @@ export default function Home() {
         </section>
         <div className="mt-20 text-center max-w-3xl mx-auto">
           <h3 className="text-3xl text-teal-600 font-medium ">Tausta</h3>
-          <div className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
+          <div className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 text-left">
             <p>
               Aloitin 2021 lokakuussa Vaasan H2C(Highway 2 Code) avoimen väylän,
               josta sain hyvät eväät aloittaessani ohjelmointi urani. H2C kesti
@@ -113,7 +113,7 @@ export default function Home() {
             <h3 className="text-3xl text-teal-600 font-medium ">
               Portfolio / Harrasteprojektit
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 text-left">
               Tykkään aloittaa projektit nollasta ja tehdä niistä oman näköisiä.
               Tämä tapa opettaa minua parhaiten oppimaan asioita, kun niitä
               joutuu oikeasti miettimään ajatuksella. Ajatusprosessini yleensä
@@ -122,7 +122,7 @@ export default function Home() {
               toimia halutullani tavalla. Joskus tämä prosessi voi viedä kauan
               tai selviää parissa päivässä. Riippuu paljon ongelman laajuudesta.
             </p>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 text-left">
               Toteutan projektini pääsääntöisesti Reactilla ja Node.js:llä.
               Reactin parissa on tullut väkerreltyä noin vuoden verran. Myös
               Reactiin kuuluvia frameworkkejä on tullut testailtua mm. Next.js
@@ -148,7 +148,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 Scootlator
               </h3>
-              <div className="py-4 dark:text-gray-200 ">
+              <div className="py-4 dark:text-gray-200 text-left ">
                 Scootlator on SPA-sovellus, joka laskee matkan pituuden, ajan
                 sekä matkan hinnan. Idea tähän projektiin lähti omasta päästä.
                 Kuulin kesällä usein kysymyksen:{" "}
@@ -159,7 +159,7 @@ export default function Home() {
                 puolivälissä 2022 ja on edelleen aktiivisessa kehityksessä.
               </div>
               <h4 className=" text-teal-600 font-medium">Teknologiat</h4>
-              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 flex justify-center gap-5">
+              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 md:grid lg:flex justify-center gap-5">
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Bootstrap</li>
@@ -192,7 +192,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 Lillaiita kynsiteknikon sivut
               </h3>
-              <p className="py-4 dark:text-gray-200">
+              <p className="py-4 dark:text-gray-200 text-left">
                 Ensimmäiset konkreettiset nettisivut, mitkä kehitin ja
                 suunnittelin alusta loppuun. Tein nämä sivut Iidalle. Kuuntelin
                 hänen ideansa ja näkemyksensä ja lähdin toteuttamaan näitä
@@ -200,7 +200,7 @@ export default function Home() {
                 aina sen mukaan.
               </p>
               <h4 className=" text-teal-600 font-medium">Teknologiat</h4>
-              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 flex justify-center gap-5">
+              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 md:grid lg:flex justify-center gap-5">
                 <li>HTML</li>
                 <li>CSS</li>
               </ul>
@@ -232,7 +232,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 Crypto Tracker
               </h3>
-              <p className="py-4 dark:text-gray-200">
+              <p className="py-4 dark:text-gray-200 text-left">
                 Tällä sovelluksella voit seurata haluamiasi kryptovaluuttoja ja
                 kryptovaluuttoihin liittyviä uutisia. Kaikki lisätyt uutiset ja
                 kryptot siirtyvät kotisivulle ja firebasen tietokantaan. Tämä
@@ -240,7 +240,7 @@ export default function Home() {
                 kehittämistä aktiivisesti 2022 heinäkuuhun asti.
               </p>
               <h4 className=" text-teal-600 font-medium ">Teknologiat</h4>
-              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 flex justify-center gap-5  ">
+              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 md:grid lg:flex justify-center gap-5  ">
                 <li>React</li>
                 <li>Firebase</li>
                 <li>React-Router</li>
@@ -272,23 +272,27 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600">
                 IOT-Sovellus
               </h3>
-              <p className="py-4 dark:text-gray-200">
+              <p className="py-4 dark:text-gray-200 text-left">
                 Tällä IOT-sovelluksella voidaan tarkkailla jääkaapinlämpötilaa.
                 Tässä käytettiin rasberry pi piirilevyä, mistä tuli anturi
                 jääkaappiin. Sovellus lähettää viestin käyttäjälle, jos
                 lämpötila karkaa liian ylös tai liian alas. Tämä sovellus
                 tehtiin parityönä Hennan kanssa.
-                <br />
-                <b>Videossamme kerrotaan tästä sovelluksesta tarkemmin.</b>
               </p>
+
+              <b className="text-center  dark:text-gray-200">
+                Videossamme kerrotaan tästä sovelluksesta tarkemmin.
+              </b>
+              <br />
+              <br />
               <a
                 href="https://www.youtube.com/watch?v=jrhlCqbzOag"
-                className="bg-gradient-to-r from-cyan-500 to to-teal-500 text-white px-2 py-1 rounded-md "
+                className="bg-gradient-to-r from-cyan-500 to to-teal-500 text-white px-2 py-1  rounded-md "
               >
                 video
               </a>
               <h4 className=" text-teal-600 font-medium mt-4">Teknologiat</h4>
-              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 flex justify-center gap-5">
+              <ul className="text-gray-800 py-1 font-bold dark:text-gray-200 md:grid lg:flex justify-center gap-5">
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Iot-Ticket</li>
