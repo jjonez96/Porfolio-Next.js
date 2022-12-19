@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  padding: 0;
-  margin: 0;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #111827;
+  scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+.dev {
+  width: 50%;
+}
+@media only screen and (max-width: 1200px) {
+  .dev {
+    width: 100%;
+    height: 100%;
+  }
+}
 a {
   color: inherit;
   text-decoration: none;
