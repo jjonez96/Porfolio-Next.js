@@ -417,7 +417,7 @@ export default function Home() {
             </li>
             <a
               href="https://www.linkedin.com/in/joona-luukkonen-7b7287228/"
-              className="text-3xl mx-2 px-2 hover:text-white duration-500 text-neutral-400"
+              className="text-3xl px-2  hover:text-white duration-500 text-neutral-400"
             >
               <AiFillLinkedin />
             </a>
