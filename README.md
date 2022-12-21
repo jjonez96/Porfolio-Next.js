@@ -7,7 +7,7 @@ Portfolio sivu missä voit katsella entisiä ja nkyisiä projektejani.
 - Tailwind CSS tyylittelyä
 - Next.js projektin luominen ja hostaus Verceliin
 
-
+https://porfolio-joona.vercel.app/
 
 
 
