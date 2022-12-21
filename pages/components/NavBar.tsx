@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="py-5 flex justify-between bg-black  top-0 border-b   border-stone-700 sticky opacity-90 z-50">
+    <nav className="py-5 mb-12 flex justify-between bg-black  top-0 border-b   border-stone-700 sticky opacity-90 z-50">
       <ul className="flex justify-center text-sm lg:text-lg ">
         <li>
           <a
@@ -14,7 +14,7 @@ const NavBar = () => {
         <li>
           <a
             href="#tausta"
-            className="hover:text-slate-100  hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 click:text-white lg:px-7 mx-2 p-2  "
+            className="hover:text-slate-100  hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 click:text-white lg:px-7 mx-2 py-2  "
           >
             Tausta
           </a>
@@ -22,7 +22,7 @@ const NavBar = () => {
         <li>
           <a
             href="#portfolio"
-            className="hover:text-slate-100 hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 focus:text-white  lg:px-7  mx-2 p-2  "
+            className="hover:text-slate-100 hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 focus:text-white  lg:px-7  mx-2 py-2  "
           >
             Portfolio
           </a>
@@ -30,7 +30,7 @@ const NavBar = () => {
         <li>
           <a
             href="#yhteystiedot"
-            className="hover:text-slate-100 hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 focus:text-white lg:px-7 mx-2 p-2  "
+            className="hover:text-slate-100 hover:bg-[#1d1d1d] hover: rounded-md text-stone-300 duration-500 focus:text-white lg:px-7 mx-2 py-2  "
           >
             Yhteystiedot
           </a>
