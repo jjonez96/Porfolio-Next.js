@@ -3,7 +3,7 @@ import React from "react";
 const MyBackground = () => {
   return (
     <section className="px-5 md:px-20 lg:px-30">
-      <div className="mt-20 text-center max-w-3xl mx-auto">
+      <div className="mt-10 text-center max-w-3xl mx-auto">
         <h3 className="text-3xl text-neutral-200 font-medium ">Tausta</h3>
         <div className="text-md py-5 leading-6 text-neutral-400 text-left md:px-30  lg:px-30  ">
           <p>
@@ -34,12 +34,23 @@ const MyBackground = () => {
             opintopistettä, jotka hyväksiluettiin tutkintoon ja tämän jälkeen
             olen aktiivisesti koodannut omia harrastusprojekteja.
           </p>
-          <br />
-          <b className="text-neutral-300">
-            Koulutuksessa opin seuraavista teknologioista perusteet: <br />
-            Html, CSS, Javascript, React, Node.js, PHP & Mysql, Git.
+
+          <p className="py-2">
+            Koulutuksessa opin näistä teknologioista perusteet:
+          </p>
+          <b>
+            <ul className="px-5 py-2 list-disc ">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>React testing library</li>
+              <li>Firebase</li>
+              <li>Git / Gitlab</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+            </ul>
           </b>
-          <br />
         </div>
       </div>
     </section>

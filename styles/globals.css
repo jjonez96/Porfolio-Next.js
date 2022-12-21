@@ -16,7 +16,7 @@ html {
 .dev {
   width: 50%;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1270px) {
   .dev {
     width: 100%;
     height: 100%;
@@ -31,9 +31,7 @@ a {
 * {
   box-sizing: border-box;
 }
-.navbar {
-  background-color: aquamarine;
-}
+
 .d {
   width: 2px !important;
   z-index: 999 !important;

@@ -1,10 +1,8 @@
 const Portfolio = () => {
   return (
-    <section className="px-5 md:px-20 lg:px-30">
-      <div className="mt-20 text-center max-w-3xl mx-auto">
-        <h3 className="text-3xl text-neutral-200 font-medium mt-20 ">
-          Portfolio
-        </h3>
+    <section className="px-5 md:px-20 lg:px-30 mt-16">
+      <div className=" text-center max-w-3xl mx-auto">
+        <h3 className="text-3xl text-neutral-200 font-medium">Portfolio</h3>
         <p className="text-md py-5 leading-6 text-neutral-400 text-left">
           Osaamiseni painottuu enemmän fronttiin ja toteutankin ne
           pääsääntöisesti <b>Reactilla</b>. Reactin parissa on tullut
@@ -25,10 +23,9 @@ const Portfolio = () => {
           kevätlukukautena 2023 <b>C#, .NET ja SQL</b> kurssit, joita odotan
           innolla kun en ole näillä päässyt vielä työskentelemään.
         </p>
-        <b className=" text-neutral-300">
+        <h3 className="text-lg font-medium relative top-6 text-neutral-100">
           Github repojen readme osioissa on lisätietoa projekteista.
-        </b>
-        <p className=" text-gray-800 dark:text-gray-200"></p>
+        </h3>
       </div>
     </section>
   );

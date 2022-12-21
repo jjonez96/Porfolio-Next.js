@@ -6,8 +6,8 @@ import cryptocurrency from "../../public/cryptocurrency.png";
 
 const ProjectCards = () => {
   return (
-    <section className="px-5 md:px-20 lg:px-30">
-      <div className="xl:flex gap-5 mt-20 ">
+    <section className="px-5 md:px-20 xl:px-20">
+      <div className="xl:flex  gap-5 mt-10">
         <div className="text-center shadow-lg p-6 bg-black border border-stone-700  rounded-xl my-10 dark:bg-gray-800 dev ">
           <Image src={design} alt="design" className="mx-auto " height={100} />
           <h3 className="text-xl font-medium pt-8 pb-2 text-white">
@@ -24,7 +24,7 @@ const ProjectCards = () => {
             edelleen aktiivisessa kehityksessä.
           </div>
           <h4 className=" text-white font-medium">Teknologiat</h4>
-          <ul className=" py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5">
+          <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
             <li>React</li>
             <li>Node.js</li>
             <li>Bootstrap</li>
@@ -35,13 +35,13 @@ const ProjectCards = () => {
           <div className="xl:flex justify-center  pt-2 mt-2 ml-7  ">
             <a
               href="https://scootlator.netlify.app/"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white  px-2 py-1 rounded-md focus:text-white mr-2"
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white  p-2 rounded-md focus:text-white mr-2"
             >
               Demo
             </a>
             <a
               href="https://github.com/jjonez96/Scootlator"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white ml-2 "
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
             </a>
@@ -61,7 +61,7 @@ const ProjectCards = () => {
           </p>
           <div className="relative top-6 ">
             <h4 className=" text-white font-medium">Teknologiat</h4>
-            <ul className=" py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5">
+            <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
               <li>HTML</li>
               <li>CSS</li>
             </ul>
@@ -74,13 +74,13 @@ const ProjectCards = () => {
           <div className="xl:flex justify-center pt-2 mt-8 ml-6 ">
             <a
               href="https://lillaiita.netlify.app/"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white mr-2"
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white mr-2"
             >
               Demo
             </a>
             <a
               href="https://github.com/jjonez96/kynsiteknikon-sivut"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white ml-2 "
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
             </a>
@@ -107,7 +107,7 @@ const ProjectCards = () => {
           </p>
           <div className="relative top-10">
             <h4 className=" text-white font-medium ">Teknologiat</h4>
-            <ul className="py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5   ">
+            <ul className="py-1 font-bold text-neutral-400  lg:flex justify-center gap-5   ">
               <li>React</li>
               <li>Firebase</li>
               <li>React-Router</li>
@@ -122,13 +122,13 @@ const ProjectCards = () => {
           <div className="xl:flex justify-center pt-2 mt-14 ml-6">
             <a
               href="https://coin-app-8164d.web.app/Home"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white mr-2"
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2  rounded-md focus:text-white mr-2"
             >
               Demo
             </a>
             <a
               href="https://github.com/jjonez96/Crypto-tracker"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white ml-2 "
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2  rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
             </a>
@@ -147,20 +147,20 @@ const ProjectCards = () => {
             maaliskuussa ja valmistui toukokuun lopulla.
           </p>
 
-          <b className="text-center  text-white">
+          <b className="text-center font-medium text-white">
             Videossamme kerrotaan tästä sovelluksesta ja Iot-Ticketistä
             tarkemmin.
             <br />
           </b>
           <a
             href="https://www.youtube.com/watch?v=jrhlCqbzOag"
-            className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 relative top-2  rounded-md focus:text-white "
+            className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 relative top-4  rounded-md focus:text-white "
           >
             Video
           </a>
           <div className="relative top-3">
             <h4 className=" text-white font-medium mt-4"> Teknologiat</h4>
-            <ul className=" py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5">
+            <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
               <li>React</li>
               <li>Node.js</li>
               <li>Wapice Oy:n Iot-Ticket</li>
@@ -171,13 +171,13 @@ const ProjectCards = () => {
           <div className="xl:flex justify-center   ml-6">
             <a
               href="https://iotgreenteam.netlify.app/"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white mr-2"
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white mr-2"
             >
               Demo
             </a>
             <a
               href="https://gitlab.com/e2102793/fridgesensor"
-              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white ml-2 "
+              className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
             </a>

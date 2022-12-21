@@ -29,6 +29,7 @@ const Header = () => {
           src={joona}
           alt="joona"
           className="rounded-full object-cover mx-auto w-80 h-80 mt-9 md:h-96 md:w-96 shadow-md"
+          priority
         />
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3  ">
@@ -50,7 +51,8 @@ const Header = () => {
         className="mx-auto"
         style={{
           marginTop: "50px",
-          border: "1px solid #1d1d1d",
+          border: "1px solid #242424",
+
           width: "80%",
         }}
       />

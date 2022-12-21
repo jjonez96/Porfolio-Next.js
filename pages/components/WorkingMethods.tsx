@@ -17,7 +17,7 @@ const WorkingMethods = () => {
           <br />
           Projekteissa käytän paljon versiohallintaa <b>(Git)</b>. Tässä vuoden
           aikana on tullu nähtyä kuinka hyödyllinen Git oikeasti on ja se on
-          pelastanut mun projektin useita kertoja.
+          pelastanut projektini useasti.
         </p>
         <p className="text-md py-5 leading-6 text-neutral-400 text-left">
           Pidän erityisesti ryhmä/paritöistä, koska niissä saa keskustella,
@@ -28,10 +28,11 @@ const WorkingMethods = () => {
         </p>
       </div>
       <hr
+        id="portfolio"
         className="mx-auto"
         style={{
           marginTop: "50px",
-          border: "1px solid #1d1d1d",
+          border: "1px solid #242424",
           width: "80%",
         }}
       />
