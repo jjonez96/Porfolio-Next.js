@@ -34,7 +34,10 @@ a {
 .navbar {
   background-color: aquamarine;
 }
-
+.d {
+  width: 2px !important;
+  z-index: 999 !important;
+}
 @font-face {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
