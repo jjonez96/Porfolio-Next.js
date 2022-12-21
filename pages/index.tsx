@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <main id="top">
         <nav className="py-5 mb-12 flex justify-between bg-black  top-0 border-b   border-stone-700 sticky opacity-90 z-50">
-          <ul className="flex  justify-center">
+          <ul className="flex  justify-center text-sm lg:text-lg">
             <li>
               <a
                 className=" hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 lg:mx-7 rounded-md   absolute right-2 top-3  
@@ -67,7 +67,7 @@ export default function Home() {
             Web Kehittäjä
           </h3>
           <p className=" text-md  py-5 max-px-9  leading-6 text-neutral-400 md:text-xl max-w-xl mx-auto ">
-            Olen Joona, 26-vuotias IT-Tradenomi opiskelija Vaasasta. Olen
+            Olen Joona, 27-vuotias IT-Tradenomi opiskelija Vaasasta. Olen
             utelias koodaaja, joka tykkää pujahtaa Googlen syövereihin. Näen
             ohjelmoinnin palapelinä, jota lähden kokoamaan pala kerrallaan.
             Palasien etsiminen voi välillä viedä aikaa, mutta kun ne oikeat
@@ -103,11 +103,33 @@ export default function Home() {
             <h3 className="text-3xl text-neutral-200 font-medium ">Tausta</h3>
             <div className="text-md py-5 leading-6 text-neutral-400 text-left md:px-30  lg:px-30  ">
               <p>
+                Tein ennen ohjelmointiopintoja töitä CNC-Koneistajana
+                Seinäjoella. Työssäni koneistin kaivostöihin kaikenlaisia osia
+                eri käyttötarkoituksiin. Työ vaati välillä ongelmanratkaisua,
+                koska näitä koneita ohjataan G-Koodilla. Kyselin apua
+                kokeneemmilta kollegoilta, kun sormi jäi suuhun liian pitkäksi
+                aikaa. Näitä duuneja tuli tehtyä kolmisen vuotta kunnes aloin
+                etsimään uutta alaa. Syynä alanvaihdolle oli, että
+                uramahdollisuuksia ei ollut, päivät oli usein samanlaisia eikä
+                työ tuonut tarpeeksi haasteita. Palkassa ei ollut moitittavaa,
+                mutta kiinnostus alaan vaan lopahti.
+                <br />
+                <br />
+                Törmäsin 2021 kesän loppupuolella Youtubessa sattumalta
+                ohjelmointiin ja näin tässä alassa paljon mahdollisuuksia.
+                Aloitin 2021 syksyllä ennen koulua koodaamisen{" "}
+                <b>HTML ja CSS</b> kielillä, josta siirryin aika pian{" "}
+                <b>Javacriptin</b> ihmeelliseen maailmaan. Tietokoneiden kanssa
+                olen touhunnut jo 6-vuotiaasta asti, kun mun vanhemmat osti
+                enimmäisen tietokoneen 2000-luvun alussa. 14-vuotiaana kasasin
+                oman tietokoneen ja sitä tulee aina vähän välilä päiviteltyä.
+                <br />
+                <br />
                 Aloitin 2021 lokakuussa Vaasan H2C (Highway 2 Code) avoimen
                 väylän, josta sain hyvät eväät aloittaessani ohjelmointi uran.
                 H2C kesti puoli vuotta, jonka suoritin töiden ohessa.
-                Koulutuksesta sain 30 opintopistettä, jotka hyväksiluettiin
-                tutkintooni ja tämän jälkeen olen aktiivisesti koodannut omia
+                Koulutuksesta sain 30 noppaa, jotka hyväksiluettiin tutkintooni
+                ja tämän jälkeen olen aktiivisesti koodannut omia
                 harrastusprojekteja.
               </p>
               <br />
@@ -122,7 +144,7 @@ export default function Home() {
         <section>
           <div className="mt-20 text-center max-w-3xl mx-auto ">
             <h3 className="text-3xl text-neutral-200 font-medium  py-5 mb-2">
-              Tech stack
+              Tech Stack
             </h3>
             <div
               className="flex gap-6 justify-center shadow-lg  rounded-xl bg-black border border-stone-700 dark:bg-gray-800 text-5xl p-5 md:px-20 lg:px-30 "
@@ -140,7 +162,7 @@ export default function Home() {
         <section className="px-5 md:px-20 lg:px-30">
           <div className="mt-20 text-center max-w-3xl mx-auto">
             <h3 className="text-3xl text-neutral-200 font-medium ">
-              Portfolio / Harrasteprojektit
+              Työskentelytavat
             </h3>
             <p className="text-md py-5 leading-6 text-neutral-400 text-left">
               Tykkään aloittaa projektit nollasta ja tehdä niistä oman näköisiä.
@@ -148,29 +170,47 @@ export default function Home() {
               joutuu oikeasti miettimään ajatuksella. Ajatusprosessini yleensä
               menee niin, että mietin ongelmaa ensin päässä. Sitten kun saan
               idean niin kirjoitan sen koodiksi ja testailen sitä niin kauan
-              että se alkaa toimia halutullani tavalla.
+              että se alkaa toimia halutullani tavalla. Haasteita on riittänyt
+              vuoden aikana paljon, mutta kertaakaan luovuttaminen ei ole ollut
+              lähellä.
+              <br />
+              <br />
+              Projekteissa käytän paljon versiohallintaa <b>(Git)</b>. Tässä
+              vuoden aikana on tullu nähtyä kuinka hyödyllinen Git oikeasti on
+              ja se on pelastanut mun projektin useita kertoja.
             </p>
             <p className="text-md py-5 leading-6 text-neutral-400 text-left">
-              Pidän erityisesti ryhmä/paritöistä, koska niissä saa keskustella
-              ihmisten kanssa ja jakaa omia mielipiteitä. Pidän myös siitä, että
-              minulle annetaan rakentavaa palautetta. Meillä on koulussa aika
-              paljon ryhmätöitä, mikä on tosi iso plussa.
+              Pidän erityisesti ryhmä/paritöistä, koska niissä saa keskustella,
+              pohtia ja jakaa omia mielipiteitä jonkun kanssa. Pidän myös siitä,
+              että minulle annetaan rakentavaa palautetta ja haluan tuoda omat
+              näkemykseni ja mielipiteeni esiin. Meillä on koulussa paljon
+              ryhmätöitä, minkä näen isona plussana.
             </p>
+
+            <h3 className="text-3xl text-neutral-200 font-medium mt-20 ">
+              Portfolio
+            </h3>
             <p className="text-md py-5 leading-6 text-neutral-400 text-left">
-              Toteutan projektini pääsääntöisesti Reactilla ja Node.js:llä.
-              Reactin parissa on tullut väkerreltyä noin vuoden verran. Myös
-              Reactiin kuuluvia frameworkkejä on tullut testailtua mm. Next.js
-              ja Gatsby.js. Esim. tämä portfolio sivu on tehty Next.js:llä ja
-              Tailwind CSS frameworkilla. Tässä{" "}
+              Osaamiseni painottuu enemmän fronttiin ja toteutankin ne
+              pääsääntöisesti <b>Reactilla</b>. Reactin parissa on tullut
+              väkerreltyä noin vuoden verran aktiivisesti. Myös Reactiin
+              kuuluvia frameworkkejä on tullut testailtua mm.{" "}
+              <b>Next.js ja Gatsby.js</b>. Esim. Tämä portfolio sivu on tehty{" "}
+              <b>Next.js:llä ja Tailwind CSS</b> frameworkilla. Tässä{" "}
               <a
                 href="https://github.com/jjonez96/porfolio"
-                className="hover:underline duration-500 text-white font-semibold"
+                className="hover:underline  text-white font-semibold"
               >
                 lähdekoodi
               </a>{" "}
-              portfolioon. <br /> Node.js:llä tulee pääsääntöisesti tehtyä
-              rajapintoja fronttiin.
+              portfolioon. <br /> <br /> <b>Node.js ja Express</b> on tullut
+              lähiaikoina myös kokajan tutummaksi nykyistä Scootlator projektia
+              värkkäillessä. Enimmäkseen näillä tulee tehtyä rajapintoja
+              fronttiin. <br /> <br /> Meillä alkaa koulussa kevätlukukautena
+              2023 <b>C#, .NET ja SQL</b> kurssit, joita odotan innolla kun en
+              ole näillä päässyt vielä työskentelemään.
             </p>
+
             <b className=" text-neutral-300">
               Github repojen readme osioissa on lisätietoa projekteista.
             </b>
@@ -193,7 +233,7 @@ export default function Home() {
                 Scootlator on SPA-sovellus, joka laskee matkan pituuden, ajan
                 sekä matkan hinnan. Idea tähän projektiin lähti omasta päästä.
                 Kuulin kesällä usein kysymyksen:{" "}
-                <q>Paljon scootti matka maksaa?</q> Esim. Tierin tai Voin
+                <q>Paljonko scootti matka maksaa?</q> Esim. Tierin tai Voin
                 sovelluksisissa ei tällaista laskinta ole. Kartassa näkyy Tierin
                 scootteja Tukholmassa, koska Suomessa nämä ovat talviteloilla.
                 Kehitys alkoi heinäkuun puolivälissä 2022 ja on edelleen
@@ -334,31 +374,32 @@ export default function Home() {
               </h3>
               <p className="p-1 text-neutral-400 text-left">
                 Tällä IOT-sovelluksella voidaan tarkkailla jääkaapinlämpötilaa.
-                Tässä käytettiin rasberry pi piirilevyä, mistä tuli anturi
-                jääkaappiin. Sovellus lähettää viestin käyttäjälle, jos
-                lämpötila karkaa liian ylös tai liian alas. Tämä sovellus
-                tehtiin parityönä Hennan kanssa. Tämä projekti aloitettiin 2022
-                maaliskuussa ja valmistui toukokuun lopulla.
+                Sovellus lähettää viestin käyttäjälle, jos lämpötila karkaa
+                liian ylös tai liian alas. Tämä sovellus oli H2C kurssin
+                lopputyö, mikä tehtiin parityönä Hennan kanssa. Tämä projekti
+                aloitettiin 2022 maaliskuussa ja valmistui toukokuun lopulla.
               </p>
 
               <b className="text-center  text-white">
-                Videossamme kerrotaan tästä sovelluksesta tarkemmin.
+                Videossamme kerrotaan tästä sovelluksesta ja Iot-Ticketistä
+                tarkemmin.
+                <br />
               </b>
-              <br />
-              <br />
               <a
                 href="https://www.youtube.com/watch?v=jrhlCqbzOag"
-                className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 rounded-md focus:text-white "
+                className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white px-2 py-1 relative top-2  rounded-md focus:text-white "
               >
                 Video
               </a>
-              <h4 className=" text-white font-medium mt-4"> Teknologiat</h4>
-              <ul className=" py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5">
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Iot-Ticket</li>
-              </ul>
-              <hr style={{ marginTop: "10px", border: "1px solid #222222" }} />
+              <div className="relative top-3">
+                <h4 className=" text-white font-medium mt-4"> Teknologiat</h4>
+                <ul className=" py-1 font-bold text-neutral-400 md:grid lg:flex justify-center gap-5">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Wapice Oy:n Iot-Ticket</li>
+                </ul>
+              </div>
+              <hr style={{ marginTop: "34px", border: "1px solid #222222" }} />
               <br />
               <div className="xl:flex justify-center   ml-6">
                 <a
