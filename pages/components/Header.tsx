@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import joon from "../../public/joon.jpg";
+import joona from "../../public/joona.jpg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Header = () => {
@@ -26,8 +26,8 @@ const Header = () => {
       </div>
       <div className="flex justify-center">
         <Image
-          src={joon}
-          alt="joon"
+          src={joona}
+          alt="joona"
           className="rounded-full object-cover mx-auto w-80 h-80 mt-9 md:h-96 md:w-96 shadow-md"
         />
       </div>

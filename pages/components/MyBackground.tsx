@@ -22,7 +22,7 @@ const MyBackground = () => {
             ohjelmointiin ja näin tässä alassa paljon mahdollisuuksia. Aloitin
             2021 syksyllä ennen koulua koodaamisen <b>HTML ja CSS</b> kielillä,
             josta siirryin aika pian <b>Javacriptin</b> ihmeelliseen maailmaan.
-            Tietokoneiden kanssa olen touhunnut jo 6-vuotiaasta asti, kun mun
+            Tietokoneiden kanssa olen touhunnut jo 6-vuotiaasta asti, kun
             vanhemmat osti enimmäisen tietokoneen 2000-luvun alussa.
             14-vuotiaana kasasin oman tietokoneen ja sitä tulee aina vähän
             välilä päiviteltyä.
@@ -31,8 +31,8 @@ const MyBackground = () => {
             Aloitin 2021 lokakuussa Vaasan H2C (Highway 2 Code) avoimen väylän,
             josta sain hyvät eväät aloittaessani ohjelmointi uran. H2C kesti
             puoli vuotta, jonka suoritin töiden ohessa. Koulutuksesta sain 30
-            noppaa, jotka hyväksiluettiin tutkintooni ja tämän jälkeen olen
-            aktiivisesti koodannut omia harrastusprojekteja.
+            opintopistettä, jotka hyväksiluettiin tutkintoon ja tämän jälkeen
+            olen aktiivisesti koodannut omia harrastusprojekteja.
           </p>
           <br />
           <b className="text-neutral-300">

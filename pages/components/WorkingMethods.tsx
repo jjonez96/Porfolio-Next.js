@@ -7,9 +7,9 @@ const WorkingMethods = () => {
         </h3>
         <p className="text-md py-5 leading-6 text-neutral-400 text-left">
           Tykkään aloittaa projektit nollasta ja tehdä niistä oman näköisiä.
-          Tämä tapa on opettanut minua parhaiten oppimaan asioita, kun niitä
-          joutuu oikeasti miettimään ajatuksella. Ajatusprosessini yleensä menee
-          niin, että mietin ongelmaa ensin päässä. Sitten kun saan idean niin
+          Tämä tapa on opettanut parhaiten oppimaan asioita, kun niitä joutuu
+          oikeasti miettimään ajatuksella. Ajatusprosessini yleensä menee niin,
+          että mietin ongelmaa ensin päässä. Sitten kun saan idean niin
           kirjoitan sen koodiksi ja testailen sitä niin kauan että se alkaa
           toimia halutullani tavalla. Haasteita on riittänyt vuoden aikana
           paljon, mutta kertaakaan luovuttaminen ei ole käynyt mielessä.
