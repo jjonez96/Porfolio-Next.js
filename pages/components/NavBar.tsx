@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <nav className="py-5 mb-12 flex justify-between bg-black  top-0 border-b   border-stone-700 sticky opacity-90 z-50">
-      <ul className="flex justify-center text-md lg:text-lg ">
+      <ul className="flex justify-center text-sm lg:text-lg ">
         <li>
           <a
             className=" hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 lg:mx-7 rounded-md   absolute right-2 top-3  
