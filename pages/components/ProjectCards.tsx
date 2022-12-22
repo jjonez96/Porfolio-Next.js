@@ -137,10 +137,10 @@ const ProjectCards = () => {
         <div className="text-center shadow-lg p-6 rounded-xl my-10 bg-black border border-stone-700  dark:bg-gray-800 dev ">
           <Image src={iot} alt="iot" width={100} className="mx-auto" />
           <h3 className="text-xl font-medium pt-8 pb-2 text-white">
-            IOT-Sovellus
+            IOT-Fridgesensor
           </h3>
           <p className="p-1 text-neutral-400 text-left">
-            Tällä IOT-sovelluksella voidaan tarkkailla jääkaapinlämpötilaa.
+            Tällä IOT-sovelluksella voidaan tarkkailla jääkaapin lämpötilaa.
             Sovellus lähettää viestin käyttäjälle, jos lämpötila karkaa liian
             ylös tai liian alas. Tämä sovellus oli H2C kurssin lopputyö, mikä
             tehtiin parityönä Hennan kanssa. Tämä projekti aloitettiin 2022
@@ -176,7 +176,7 @@ const ProjectCards = () => {
               Demo
             </a>
             <a
-              href="https://gitlab.com/e2102793/fridgesensor"
+              href="https://github.com/jjonez96/IOT-Fridgesensor"
               className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
