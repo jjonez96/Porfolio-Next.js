@@ -4,7 +4,7 @@ const Portfolio = () => {
       <div className=" text-center max-w-3xl mx-auto">
         <h3 className="text-3xl text-neutral-200 font-medium">Portfolio</h3>
         <p className="text-md py-5 leading-6 text-neutral-400 text-left">
-          Osaamiseni painottuu enemmän fronttiin ja toteutankin ne
+          Osaamiseni painottuu enemmän fronttiin ja toteutankin projektit
           pääsääntöisesti <b>Reactilla</b>. Reactin parissa on tullut
           väkerreltyä noin vuoden verran aktiivisesti. Myös Reactiin kuuluvia
           frameworkkejä on tullut testailtua mm. <b>Next.js ja Gatsby.js</b>.
