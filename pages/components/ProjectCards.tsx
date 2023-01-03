@@ -14,14 +14,14 @@ const ProjectCards = () => {
             Scootlator
           </h3>
           <div className="py-4 text-neutral-400 text-left ">
-            Scootlator on kätevä ja nopea äppi scootti matkan hinnan
-            laskemiseen. Idea tähän projektiin lähti omasta päästä. Kuulin
-            kesällä usein kysymyksen: <q>Paljonko scootti matka maksaa?</q> ja
-            idea sovellukseen lähti tästä kysymyksestä liikkeelle. Tierin tai
-            Voin sovelluksisissa ei tällaista laskinta ole. Kartassa näkyy
-            Tierin scootteja Tukholmassa, koska Suomessa nämä ovat
-            talviteloilla. Kehitys alkoi heinäkuun puolivälissä 2022 ja on
-            edelleen aktiivisessa kehityksessä.
+            Scootlator on kätevä ja nopea äppi scoottimatkan hinnan laskemiseen.
+            Idea tähän projektiin lähti omasta päästä. Kuulin kesällä usein
+            kysymyksen: <q>Paljonko scootti matka maksaa?</q> ja idea
+            sovellukseen lähti tästä kysymyksestä liikkeelle. Tierin tai Voin
+            sovelluksisissa ei tällaista laskinta ole. Kartassa näkyy Tierin ja
+            Voin scootteja Örebrossa, koska Suomessa nämä ovat talviteloilla.
+            Kehitys alkoi heinäkuun puolivälissä 2022 ja on edelleen
+            aktiivisessa kehityksessä.
           </div>
           <h4 className=" text-white font-medium">Teknologiat</h4>
           <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
