@@ -14,9 +14,9 @@ const ProjectCards = () => {
             Scootlator
           </h3>
           <div className="py-4 text-neutral-400 text-left ">
-            Scootlator on kätevä ja nopea äppi scoottimatkan hinnan laskemiseen.
+            Scootlator on kätevä ja nopea äppi skuuttimatkan hinnan laskemiseen.
             Idea tähän projektiin lähti omasta päästä. Kuulin kesällä usein
-            kysymyksen: <q>Paljonko scootti matka maksaa?</q> ja idea
+            kysymyksen: <q>Paljonko skuutti matka maksaa?</q> ja idea
             sovellukseen lähti tästä kysymyksestä liikkeelle. Tierin tai Voin
             sovelluksisissa ei tällaista laskinta ole. Kartassa näkyy Tierin ja
             Voin scootteja Örebrossa, koska Suomessa nämä ovat talviteloilla.
@@ -26,6 +26,7 @@ const ProjectCards = () => {
           <h4 className=" text-white font-medium">Teknologiat</h4>
           <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
             <li>React</li>
+            <li>Next.js</li>
             <li>Node.js</li>
             <li>Bootstrap</li>
             <li>Googlemaps API</li>
@@ -34,13 +35,13 @@ const ProjectCards = () => {
           <hr style={{ marginTop: "10px", border: "1px solid #222222" }} />
           <div className="xl:flex justify-center  pt-2 mt-2 ml-7  ">
             <a
-              href="https://scootlator.netlify.app/"
+              href="https://scootlator.vercel.app/"
               className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white  p-2 rounded-md focus:text-white mr-2"
             >
               Demo
             </a>
             <a
-              href="https://github.com/jjonez96/Scootlator"
+              href="https://github.com/jjonez96/scootlator-nextjs"
               className="hover:text-white text-stone-300 duration-500  border border-stone-700 hover:border-white p-2 rounded-md focus:text-white ml-2 "
             >
               Lähdekoodi
@@ -59,6 +60,7 @@ const ProjectCards = () => {
             Kyselin usein palautetta ja tein korjauksia aina sen mukaan. Tämän
             projektin aloitin elokuussa 2022 ja valmistui marraskuun lopulla.
           </p>
+          <br />
           <div className="relative top-6 ">
             <h4 className=" text-white font-medium">Teknologiat</h4>
             <ul className=" py-1 font-bold text-neutral-400  lg:flex justify-center gap-5">
@@ -184,7 +186,6 @@ const ProjectCards = () => {
           </div>
         </div>
       </div>
-      <div></div>
     </section>
   );
 };
